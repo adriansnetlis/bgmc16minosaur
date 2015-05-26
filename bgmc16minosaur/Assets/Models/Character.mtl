@@ -1,0 +1,42 @@
+# Blender MTL File: 'Character.blend'
+# Material Count: 4
+
+newmtl Face
+Ns 47.058824
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/user/BGMC_Projects/Minosaur-BGMC16/Assets/PreMadeFiles/Textures/HumanTextures/Face.jpg
+map_Ks /home/user/BGMC_Projects/Minosaur-BGMC16/Assets/PreMadeFiles/Textures/HumanTextures/Face.jpg
+
+newmtl Human
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Jacket
+Ns 135.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.050000 0.060000 0.070000
+Ks 0.200000 0.200000 0.200000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump /home/user/Adriana_Faili/Textures/AsphaltNormal_1.jpg
+
+newmtl Jeans
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.473169 0.561699 0.966661
+Ks 0.050000 0.050000 0.050000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump /home/user/Adriana_Faili/Textures/Grass_normal_1.jpg
