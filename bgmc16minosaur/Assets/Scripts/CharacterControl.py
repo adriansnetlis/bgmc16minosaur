@@ -97,6 +97,7 @@ bge.logic.globalDict["key1"] = own["key1"]
 #collect key
 if hitObj == obj["key1bound"]:
     own["key1"] = 1
+    hitObj.children[0].endObject()
 
 #define doors
 door1 = obj["door1"]
