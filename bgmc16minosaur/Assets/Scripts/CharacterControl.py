@@ -28,7 +28,7 @@ a_key = bge.logic.KX_INPUT_ACTIVE == keyboard.events[bge.events.AKEY]
 s_key = bge.logic.KX_INPUT_ACTIVE == keyboard.events[bge.events.SKEY]
 d_key = bge.logic.KX_INPUT_ACTIVE == keyboard.events[bge.events.DKEY]
 shift_key = bge.logic.KX_INPUT_ACTIVE == keyboard.events[bge.events.LEFTSHIFTKEY]
-space_key = bge.logic.KX_INPUT_ACTIVE == keyboard.events[bge.events.SPACEKEY]
+space_key = bge.logic.KX_INPUT_JUST_ACTIVATED == keyboard.events[bge.events.SPACEKEY]
 
 #tweak player
 walkSpeed = 1.5
